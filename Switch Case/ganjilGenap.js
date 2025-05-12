@@ -27,4 +27,6 @@ document.getElementById('formGanjilGenap').addEventListener('submit', function(e
 
         document.getElementById('output').innerText = `Kendaraan anda ${penentuan} karena plat anda merupakan ${jenisNomorKendaraan} dan tanggal hari ini adalah ${jenisTanggal}`;
     }
+
+    document.get
 });
