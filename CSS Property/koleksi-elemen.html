@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Elemen: Position & Display</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .static {
+            position: static;
+            display: block;
+            background: #e3f2fd;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .relative {
+            position: relative;
+            display: inline-block;
+            left: 20px;
+            background: #ffe0b2;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .absolute {
+            position: absolute;
+            display: block;
+            top: 120px;
+            left: 20px;
+            background: #c8e6c9;
+            width: 200px;
+            padding: 10px;
+        }
+        .fixed {
+            position: fixed;
+            display: flex;
+            bottom: 10px;
+            right: 10px;
+            background: #f8bbd0;
+            padding: 10px;
+        }
+        .sticky {
+            position: sticky;
+            display: grid;
+            top: 0;
+            background: #d1c4e9;
+            padding: 10px;
+        }
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Koleksi Elemen: Position & Display</h1>
+    <div class="static">Position: static, Display: block</div>
+    <span class="relative">Position: relative, Display: inline-block</span>
+    <div class="absolute">Position: absolute, Display: block</div>
+    <div class="fixed">Position: fixed, Display: flex</div>
+    <div class="sticky">Position: sticky, Display: grid</div>
+    <div class="none">Position: static, Display: none</div>
+</body>
+</html>
